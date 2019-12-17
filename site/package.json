@@ -1,9 +1,10 @@
 {
   "scripts": {
-    "serve": "webpack-dev-server --host 0.0.0.0"
+    "serve": "webpack-dev-server",
+    "test": "webpack-dev-server --host 0.0.0.0"
   },
   "dependencies": {
-    "@actyi/hello-wasm": "^0.1.1"
+    "@actyi/hello-wasm": "^0.1.2"
   },
   "devDependencies": {
     "webpack": "^4.25.1",

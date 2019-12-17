@@ -55,8 +55,8 @@
 /******/ 		"./node_modules/@actyi/hello-wasm/hello_wasm_bg.wasm": function() {
 /******/ 			return {
 /******/ 				"./hello_wasm.js": {
-/******/ 					"__wbg_alert_7d17abe3494f39b3": function(p0i32,p1i32) {
-/******/ 						return installedModules["./node_modules/@actyi/hello-wasm/hello_wasm.js"].exports["__wbg_alert_7d17abe3494f39b3"](p0i32,p1i32);
+/******/ 					"__wbg_alert_12eb342a7b06af19": function(p0i32,p1i32) {
+/******/ 						return installedModules["./node_modules/@actyi/hello-wasm/hello_wasm.js"].exports["__wbg_alert_12eb342a7b06af19"](p0i32,p1i32);
 /******/ 					}
 /******/ 				}
 /******/ 			};
@@ -159,7 +159,7 @@
 /******/ 				promises.push(installedWasmModuleData);
 /******/ 			else {
 /******/ 				var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 				var req = fetch(__webpack_require__.p + "" + {"./node_modules/@actyi/hello-wasm/hello_wasm_bg.wasm":"81c805a2f34927c519fa"}[wasmModuleId] + ".module.wasm");
+/******/ 				var req = fetch(__webpack_require__.p + "" + {"./node_modules/@actyi/hello-wasm/hello_wasm_bg.wasm":"836d5a0c7211261d5132"}[wasmModuleId] + ".module.wasm");
 /******/ 				var promise;
 /******/ 				if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 					promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {

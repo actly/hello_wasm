@@ -9,5 +9,5 @@ extern "C" {
 
 #[wasm_bindgen]
 pub fn greet(name: &str) {
-    alert(&format!("欢迎参加{}!", name));
+    alert(&format!("欢迎参加\n{}!", name));
 }
